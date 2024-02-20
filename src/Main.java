@@ -13,7 +13,7 @@ public class Main {
         System.out.print("Boyunuzu girin (Metre Cinsinden): ");
         boy = input.nextDouble();
 
-        double vucutKitleEndeksi = kg / (boy * boy)*10000; // Doğru formül burada kullanıldı.
+        double vucutKitleEndeksi = kg / (boy * boy); // Doğru formül burada kullanıldı.
 
         System.out.print("Vücut Kitle Endeksiniz: " + vucutKitleEndeksi);
     }
